@@ -1,0 +1,90 @@
+// các màu tham khảo (hex): (có thể tìm màu khác thay thế)
+
+// màu trắng : #F8F5F9
+// màu tím nhạt: #F3E9FF
+// màu tím đậm: #774AD8
+// màu vàng nhạt: #FEEFB2
+// màu vàng đậm: #F8C929
+// màu vàng nâu: #66490A
+
+// Color
+$color-white: #F8F5F9;
+$color-purple-light:#F3E9FF;
+$color-purple:#774AD8;
+$color-yellow-light: #FEEFB2;
+$color-yellow:#F8C929;
+$color-yellow-brown:#66490A;
+
+$padding-body: 1px 20%;
+$font : 'Roboto', sans-serif;
+$background-color: #F3E9FF;
+$border-radius: 10px;
+
+body{
+   padding: $padding-body;
+   font-family: $font;
+   background-color:$background-color ;
+   box-sizing: border-box;
+    font-size: 18px;
+}
+
+header{
+    text-align: center;
+    h1{
+        color: $color-purple;
+        font-size: 48px;
+    }
+    img{
+        width: 33%;
+    }
+}
+
+main{
+    margin-top: 2rem;
+    padding: 2rem 1.5rem;
+    margin-left: 3rem;
+    width: 792px;
+    background-color: $color-purple;
+    color: $color-white;
+    border-radius: $border-radius;   
+
+
+    p{
+        color: $color-white;
+        a{
+            text-decoration: none;
+            background-color: $color-yellow-light;
+            padding: 0.3rem;
+            color: $color-purple;
+            font-weight: bold ;
+            border-radius: 4px;
+        }
+    }
+    ul{
+        padding-left: 0.3rem ;
+        li{
+            list-style-type: none;
+            padding: 0.5rem;    
+            &.active{
+                color: $color-yellow;
+                border-left: 5px solid $color-yellow;
+            }
+        }
+    }
+}
+section{
+    text-align: center;
+    margin-top: 4.5rem;
+    a{
+        text-decoration: none;
+        background-color: $color-yellow;
+        padding: 0.9rem 1.5rem;
+        border-radius: $border-radius;
+        color: $color-yellow-brown;
+        font-weight: bold;  
+    }   
+}
+footer{
+    margin: 2.5rem 0rem 4rem 0rem;
+    text-align: center;
+}

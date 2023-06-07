@@ -1,0 +1,70 @@
+body {
+  padding: 1px 20%;
+  font-family: "Roboto", sans-serif;
+  background-color: #F3E9FF;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  color: #774AD8;
+  font-size: 48px;
+}
+header img {
+  width: 33%;
+}
+
+main {
+  margin-top: 2rem;
+  padding: 2rem 1.5rem;
+  margin-left: 3rem;
+  width: 792px;
+  background-color: #774AD8;
+  color: #F8F5F9;
+  border-radius: 10px;
+}
+main p {
+  color: #F8F5F9;
+}
+main p a {
+  text-decoration: none;
+  background-color: #FEEFB2;
+  padding: 0.3rem;
+  color: #774AD8;
+  font-weight: bold;
+  border-radius: 4px;
+}
+main ul {
+  padding-left: 0.3rem;
+}
+main ul li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+main ul li.active {
+  color: #F8C929;
+  border-left: 5px solid #F8C929;
+}
+
+section {
+  text-align: center;
+  margin-top: 4.5rem;
+}
+section a {
+  text-decoration: none;
+  background-color: #F8C929;
+  padding: 0.9rem 1.5rem;
+  border-radius: 10px;
+  color: #66490A;
+  font-weight: bold;
+}
+
+footer {
+  margin: 2.5rem 0rem 4rem 0rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
